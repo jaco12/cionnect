@@ -1,0 +1,101 @@
+/* Sidebar */
+.sidebar {
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+/* Cards */
+.card {
+    height: auto;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1000; /* Ensure it's above other elements */
+    background-color: #343a40;
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.navbar-brand:hover {
+    color: #cccccc;
+}
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #cccccc;
+}
+/* Profile */
+.profile-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+/* Main */
+.main-content-with-sidebar {
+    margin-top: 56px;
+    margin-left: 280px;
+    padding: 20px;
+}
+.main-content-no-sidebar {
+    padding-top: 76px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* Start */
+.start-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-google {
+    background-color: #db4437;
+    color: white;
+}
+.btn-google:hover {
+    background-color: #c23321;
+}
+.guest-link {
+    margin-top: 20px;
+    color: #343a40;
+}
+.guest-link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+/* Body/HTML*/
+body, html {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
