@@ -1,4 +1,4 @@
-_Note: This is not the original repository. The project was copied over to preserve the original application while specifying and epmhasizing personal contributions during the app's collaborative development._
+_Note: This is not the original repository. The project was copied over to preserve the original application while specifying and emphasizing personal contributions during the app's collaborative development._
 
 # CIOnnect
 
