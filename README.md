@@ -10,7 +10,18 @@ Made using Django, Bootstrap, and Amazon S3 for cloud storage. The original proj
 
 ## Overview
 
-CIOnnect is a project management application (PMA) that allows users to create their own clubs and join other users' clubs. Within each club "project," users can add/delete files, create to-do lists, post messages, and more.
+CIOnnect is a project management application (PMA) that allows users to create their own clubs and join other users' clubs. Within each club _"group"_/_"project,"_ users can add/delete files, create to-do lists, post messages, and more.
 
 ## Team Role – DevOps Manager
 
+I acted as DevOps manager during the development of CIOnnect. My role-specific contributions included, but were not limited to, the following:
+- Deployed the application to Heroku and configured Heroku’s PostgreSQL database, integrating it with the front-end.
+- Set up cloud storage infrastructure using Amazon S3.
+- Troubleshot and resolved infrastructure-related issues across deployment, database, and storage services.
+- Assisted team members in debugging CI pipeline errors and infrastructure-related bugs, particularly with GitHub Actions.
+
+My other general contributions included, but were not limited to, the following:
+- Added Google login integration using OAuth
+- Implemented features including to-do lists, file deletion, and message posting
+- Implemented group join and approval functionality
+- Various front-end UI updates
