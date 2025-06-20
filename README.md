@@ -22,6 +22,6 @@ I acted as DevOps manager during the development of CIOnnect. My role-specific c
 
 My other general contributions included, but were not limited to, the following:
 - Added Google login integration using OAuth
-- Implemented features including to-do lists, file deletion, and message posting
+- Implemented features including to-do lists, file upload/deletion, and message posting
 - Implemented group join and approval functionality
 - Various front-end UI updates
