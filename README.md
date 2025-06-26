@@ -18,7 +18,7 @@ I acted as DevOps manager during the development of CIOnnect. My role-specific c
 - Deployed the application to Heroku and configured Heroku’s PostgreSQL database, integrating it with the front-end.
   - _Note: The application is no longer hosted on Heroku._
 - Set up cloud storage infrastructure using Amazon S3.
-  - _(Note: For security purposes, the associated AWS access key has been deactivated and the account has been closed._
+  - _Note: For security purposes, the associated AWS access key has been deactivated and the account has been closed._
 - Troubleshot and resolved infrastructure-related issues across deployment, database, and storage services.
 - Assisted team members in debugging CI pipeline errors and infrastructure-related bugs, particularly with GitHub Actions.
 
